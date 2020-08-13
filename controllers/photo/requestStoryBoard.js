@@ -11,6 +11,7 @@ module.exports = {
 			.then(photo => {
 				// console.log(photo);
 				res.status(200).send(photo);
+
 			})
 			.catch(err => res.send(err));
 	},
